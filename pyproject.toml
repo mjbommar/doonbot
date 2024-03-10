@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "doonbot"
+version = "0.1.0"
+description = "Bonny Doon Bot"
+authors = ["Michael Bommarito <michael.bommarito@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai-whisper = "^20231117"
+openai = "^1.13.3"
+tiktoken = "^0.6.0"
+pyaudio = "^0.2.14"
+pydub = "^0.25.1"
+opencv-python = "^4.9.0.80"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
